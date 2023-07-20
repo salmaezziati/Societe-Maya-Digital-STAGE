@@ -1,0 +1,135 @@
+/* Reset default margin and padding for all elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the header text and set some styles */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+/* Style the navigation links */
+ul.line {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul.line li {
+    margin: 0 15px;
+}
+
+ul.line li a {
+    text-decoration: none;
+    color: #99bdce;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+ul.line li a:hover {
+    color: #f7f7f7;
+}
+
+/* Style the main section with the albums */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .artist {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .artist img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .artist h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .artist p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  /* Specific Section Styles */
+  .USA {
+    background-color: #f1c40f;
+    color: #333;
+  }
+  
+  .CANADA {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .EUROPE {
+    background-color: #27ae60;
+    color: #fff;
+  }
+  
+  .SK {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .MOROCCO {
+    background-color: #9b59b6;
+    color: #fff;
+  }
+  
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
